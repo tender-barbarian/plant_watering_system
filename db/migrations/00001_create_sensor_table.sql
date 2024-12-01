@@ -1,0 +1,9 @@
+CREATE TABLE sensor (
+    id   INTEGER NOT NULL PRIMARY KEY /*!40101 AUTO_INCREMENT */,
+    name VARCHAR(255) NOT NULL,
+    sensorType  VARCHAR(255),
+	chip VARCHAR(255),
+	board VARCHAR(255),
+	IP VARCHAR(255) NOT NULL,
+	sensorMethodIDs INTEGER []
+);
